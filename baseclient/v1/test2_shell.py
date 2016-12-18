@@ -3,7 +3,6 @@ import os
 
 from cliff.command import Command
 
-
 class Test2Cmd(Command):
     "A simple command that prints a message."
 
@@ -17,4 +16,3 @@ class Test2Cmd(Command):
         self.log.info('sending greeting')
         self.log.debug('debugging')
         self.app.stdout.write('hi!test2\n')
-
