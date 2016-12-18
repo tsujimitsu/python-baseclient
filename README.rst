@@ -19,7 +19,7 @@ Run
 
 .. code::
 
-    # clibase help
+    # base help
     usage: base [--version] [-v | -q] [--log-file LOG_FILE] [-h] [--debug]
     
     optional arguments:
@@ -36,6 +36,7 @@ Run
       test cmd       A simple command that prints a message.
       test list      Show a list of test
       test show      Show detail information of test
+      test2 cmd      A simple command that prints a message.
 
 
 Uninstall
