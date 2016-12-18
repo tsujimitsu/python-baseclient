@@ -5,7 +5,7 @@ from cliff.commandmanager import CommandManager
 
 import pbr.version
 
-version_info = pbr.version.VersionInfo('clibase')
+version_info = pbr.version.VersionInfo('python-baseclient')
 
 class CliBaseCommand(App):
 
@@ -13,7 +13,7 @@ class CliBaseCommand(App):
         super(CliBaseCommand, self).__init__(
             description='',
             version=version_info,
-            command_manager=CommandManager('clibase.cli'),
+            command_manager=CommandManager('baseclient.v1'),
             deferred_help=True,
             )
 
